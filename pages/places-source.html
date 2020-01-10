@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>Places source</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">rugebiker </a></h1>
-                <nav><ul>
-                    <li><a href="/pages/books.html">Books</a></li>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/pages/places.html">Places</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-    <h1 class="entry-title">Places source</h1>
-    
-    
+    <title>Places source &ndash; rugebiker</title>
+
+    <!-- Meta -->
+    <meta name="description" content="rugebiker &ndash; ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Social -->
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Places source"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:site_name" content="rugebiker" />
+    <meta property="og:url" content="/pages/places-source.html"/>
+    <meta property="og:image" content="http://www.gravatar.com/avatar/abcdefghijkl?s=240"/>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Places source">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="/pages/places-source.html">
+    <meta name="twitter:image" content="http://www.gravatar.com/avatar/abcdefghijkl?s=240">
+
+    <!-- Feed -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold">
+    <link rel="stylesheet" type="text/css" href="/theme/css/w3.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/jqcloud.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/theme/css/pygments-highlight-github.css">
+
+    <!-- Icon -->
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/theme/js/jqcloud.min.js"></script>
+  </head>
+
+  <body>
+    <div class="w3-row w3-card w3-white">
+      <header id="header">
+        <a href="" id="header-logo" title="Home">RG</a>
+        <nav id="header-menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/places.html">Places</a></li>
+            <li><a href="/pages/books.html">Books</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+
+
+    <br><br><br>
+
+    <article>
+      <header class="w3-container col-main">
+        <h1>Places source</h1>
+        <div class="post-info">
+          <div class="w3-opacity w3-margin-right w3-margin-bottom" style="flex-grow: 1;">
+            
+          </div>
+        </div>
+      </header>
+
+      <br>
+
+      <div class="col-main w3-container">
+        <section id="content">
+          
 <div class="container">
     
 <div class="centered-text"><div class="table-wrapper">
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
-<div id="map" style="width: 1000px; height: 700px"></div>
+<div id="map" style="width: 800px; height: 600px"></div>
 <script>
 var map = L.map('map').setView([51.505, -0.09], 2);
 
@@ -312,34 +367,25 @@ L.marker([41.9023, 12.4533]).addTo(map).bindPopup("Vatican City");
 
 </div>    
 
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
+        </section>
+        
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        <br><br><br>
+        
+      </div>
+    </article>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+    <footer id="footer">
+      <div id="footer-copyright" class="w3-center w3-small w3-text-grey w3-padding-48">
+        <span>
+          &copy;
+          Ruben Guerra
+        </span>
+      </div>
+    </footer>
 
-</body>
+
+
+  </body>
 </html>
